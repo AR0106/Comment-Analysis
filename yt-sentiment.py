@@ -13,7 +13,7 @@ url = input()
 
 driver = webdriver.Chrome()
 
-driver.get('https://www.youtube.com/watch?v=A9D_VShUbCo&t=23s')  # example video
+driver.get(url)  # example video
 
 time.sleep(2)  # if you have slow internet , increase the value of sleep
 
